@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from "react";
+var a = parseInt(prompt("Digite um numero"));
+  var b = parseInt(prompt("Digite um numero"));
+  var e1 = ("Bruno Costa Prado") 
+  var e2 = ("Bruno Costa Prado")
+  var e3 = ("Bruno Costa Prado")
+function app() {
+  
+
+function teste() {
+  return a + b;
+}
+return( <div className="app">
+  <p>A soma dos valores é: {teste()}
+  </p>
+  <p>{e1}</p>
+  <p>{e2}</p>
+  <p>{e3}</p>
+</div>);
 }
 
-export default App;
+export default app;
