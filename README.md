@@ -1,4 +1,5 @@
 # Aulas de ReactJS
+Aulas de ReactJS, ministrada pelo professor Jaison Costa
 
 
 
